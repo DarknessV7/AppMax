@@ -1,0 +1,62 @@
+<ion-view view-title="Categories">
+  <ion-content >
+    <img class="ima"src="https://www.max.com.gt/skin/frontend/base/default/images/tiendas_max_logo.png">
+  	<div class="container">
+		    <div class="row">
+        <div class=" col col-50 " ng-repeat="x in categories">
+		       
+           <div class="rf borde">
+             <center>    
+                <span> 
+                  {{x.nombre}}
+                  <div class="icono"> 
+                      <i class="{{x.icono}}"></i>
+                  </div>
+                </span>
+              </center>
+           </div>   
+		    </div>  		
+  	   </div>
+  	</div>
+
+
+</ion-view>
+ </ion-content>	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 <!--<ion-list>
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+        {{playlist.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
